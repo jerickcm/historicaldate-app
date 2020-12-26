@@ -21,3 +21,4 @@ Route::name('home')->get('/', function () {
     return view('index');
       // return view('test');
 });
+
