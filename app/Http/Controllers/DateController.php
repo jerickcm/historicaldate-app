@@ -7,7 +7,8 @@ use App\Model\Historicaldate;
 
 class DateController extends Controller
 {
-     
+    
+    /* Method 1 to get*/
     public function check()
     {
 		$month = date('m');
