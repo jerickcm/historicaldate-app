@@ -23,3 +23,7 @@ Route::name('home')->get('/', function () {
 });
 
 
+
+
+
+Route::get('/check','DateController@check');
